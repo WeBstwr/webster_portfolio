@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -13,10 +14,13 @@ html {
 body {
   font-family: "Josefin Sans", sans-serif;
 }
+.hero__name {
+  font-family: "Montserrat", sans-serif;
+}
 
 :root {
-  --first-color: #bfa58e;
-  --second-color: #f2eeeb;
-  --third-color: #f1f1f1;
-  --fourth-color: #d6efd8;
+  --first-color: #444444;
+  --second-color: #f5f5f5;
+  --third-color: #eeedeb;
+  --fourth-color: #2f3645;
 }

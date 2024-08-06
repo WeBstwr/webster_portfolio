@@ -1,13 +1,12 @@
 import React from "react";
 import "./assets/globals.css";
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
 import Explore from "./pages/Explore/Explore";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -19,7 +18,7 @@ function App() {
         <Footer />
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
