@@ -18,13 +18,13 @@ function Hero() {
         </div>
 
         <div className="cta__container">
-          <a href="#about" class="home-cta">
+          <a href="#about" className="home-cta">
             about
           </a>
-          <a href="#skills" class="home-cta">
+          <a href="#skills" className="home-cta">
             skills
           </a>
-          <a href="#my__projects" class="home-cta">
+          <a href="#my__projects" className="home-cta">
             my projects
           </a>
         </div>

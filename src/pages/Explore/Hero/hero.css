@@ -39,8 +39,31 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 90%;
+  justify-content: center;
+  width: 90%;
   color: var(--third-color);
+  animation:
+    blink-caret 0.75s step-end infinite,
+    fadeIn 4s ease-in;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 400px) {
