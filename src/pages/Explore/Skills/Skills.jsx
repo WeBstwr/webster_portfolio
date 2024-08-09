@@ -6,7 +6,7 @@ import "./skills.css";
 
 function Skills() {
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <Title text="my skills" />
       <div className="skills-container">
         {skills.map((skill, i) => (
