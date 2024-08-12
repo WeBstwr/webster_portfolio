@@ -13,7 +13,7 @@ function Header() {
           contact
         </a>
         <a
-          href="../../../../public/resume.pdf"
+          href="../../../public/resume.pdf"
           download="Webster_Resume.pdf"
           className="header__resume-btn"
         >
