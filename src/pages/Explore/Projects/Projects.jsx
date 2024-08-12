@@ -6,7 +6,7 @@ import projects from "../../../data/projects.js";
 
 function Projects() {
   return (
-    <section>
+    <section id="my__projects">
       <Title text="my projects" />
       <div className="projects__container">
         {projects.map((project, i) => (
