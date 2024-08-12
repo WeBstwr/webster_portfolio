@@ -12,7 +12,13 @@ function Header() {
         <a href="/contact" className="header-nav__link">
           contact
         </a>
-        <button className="header__resume-btn">my resume</button>
+        <a
+          href="../../../../public/resume.pdf"
+          download="Webster_Resume.pdf"
+          className="header__resume-btn"
+        >
+          my resume
+        </a>
       </nav>
     </header>
   );
