@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./header.css";
 
 function Header() {
@@ -6,12 +7,22 @@ function Header() {
     <header className="header">
       <h1 className="header-logo">{`{webster}`}</h1>
       <nav className="header-nav">
-        <a href="/" className="header-nav__link">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "header-nav__link active" : "header-nav__link"
+          }
+        >
           explore
-        </a>
-        <a href="/contact" className="header-nav__link">
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "header-nav__link active" : "header-nav__link"
+          }
+        >
           contact
-        </a>
+        </NavLink>
         <a
           href="/resume.pdf"
           download="Webster_Resume.pdf"

@@ -4,6 +4,7 @@
   background-color: var(--first-color);
   padding: 2.5rem;
   margin-top: 9rem;
+  text-align: center;
 }
 
 .footer p {
@@ -13,6 +14,6 @@
 }
 
 .footer a {
-  color: black;
+  color: var(--fifth-color);
   text-decoration: none;
 }
