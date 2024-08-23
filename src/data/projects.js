@@ -15,14 +15,6 @@ const projects = [
     codeUrl: "https://github.com/WeBstwr/Webster-s-Restaurant",
   },
   {
-    image: romanConverter,
-    title: "number converter",
-    excerpt:
-      "A simple and efficient tool that converts Arabic numerals into their Roman numeral equivalents. User-friendly and designed for quick and accurate conversions.",
-    liveUrl: "https://numeral-to-roman-converter.vercel.app/",
-    codeUrl: "https://github.com/WeBstwr/numeral-to-roman-converter",
-  },
-  {
     image: zaphImg,
     title: "zaph tours",
     excerpt:
@@ -39,6 +31,14 @@ const projects = [
     codeUrl: "https://github.com/WeBstwr/Urban-Haven-Apartments",
   },
   {
+    image: mutcImg,
+    title: "mutc landing page",
+    excerpt:
+      "A dedicated website for Murang'a University Tech Club, showcasing the club's mission, events, and activities. Designed to engage students and promote tech-related learning and collaboration within the university community.",
+    liveUrl: "https://mutc-livid.vercel.app/",
+    codeUrl: "https://github.com/WeBstwr/MUTC",
+  },
+  {
     image: adviceImg,
     title: "advice api",
     excerpt:
@@ -47,12 +47,12 @@ const projects = [
     codeUrl: "https://github.com/WeBstwr/Advice-API",
   },
   {
-    image: mutcImg,
-    title: "mutc landing page",
+    image: romanConverter,
+    title: "number converter",
     excerpt:
-      "A dedicated website for Murang'a University Tech Club, showcasing the club's mission, events, and activities. Designed to engage students and promote tech-related learning and collaboration within the university community.",
-    liveUrl: "https://mutc-livid.vercel.app/",
-    codeUrl: "https://github.com/WeBstwr/MUTC",
+      "A simple and efficient tool that converts Arabic numerals into their Roman numeral equivalents. User-friendly and designed for quick and accurate conversions.",
+    liveUrl: "https://numeral-to-roman-converter.vercel.app/",
+    codeUrl: "https://github.com/WeBstwr/numeral-to-roman-converter",
   },
 ];
 

@@ -40,7 +40,7 @@ function Contact() {
             </a>
           </p>
           <h3>time</h3>
-          <p>24/7</p>
+          <p className="time-sec">Available Every Hour, Every Day</p>
         </div>
         <div className="contact-socials">
           <Socials

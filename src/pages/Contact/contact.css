@@ -46,6 +46,10 @@
   font-size: 4rem;
 }
 
+.time-sec {
+  font-weight: 700;
+}
+
 .socials-icon-wrapper {
   width: 100%;
 }
