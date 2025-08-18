@@ -9,9 +9,9 @@ function Projects() {
     <section id="my__projects">
       <Title text="my projects" />
       <div className="projects__container">
-        {projects.map((project, i) => (
+        {projects.map((project) => (
           <Project
-            key={i}
+            key={project.title}
             thumbnail={project.image}
             title={project.title}
             excerpt={project.excerpt}

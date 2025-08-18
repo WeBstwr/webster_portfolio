@@ -9,7 +9,7 @@ function Hero() {
         <div className="hero__container">
           <div className="hero-textbox">
             <p className="hero-textbox__p hero-textbox-p-left">
-              <img src={img} alt="my avatar" className="hero-avatar-img" />
+              <img src={img} alt="Webster Ifedha avatar" decoding="async" className="hero-avatar-img" />
               Hello, I am
             </p>
             <h3 className="hero__name">{`webster ifedha`}</h3>

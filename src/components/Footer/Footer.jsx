@@ -1,11 +1,11 @@
 import "./footer.css";
-import today from "../../utils/date.js";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <div className="footer">
+    <footer className="footer">
       <p>
-        &copy; {today()}{" "}
+        &copy; {currentYear}{" "}
         <a
           href="https://github.com/WeBstwr"
           target="_blank"
@@ -23,7 +23,7 @@ const Footer = () => {
         </a>{" "}
         All rights reserved
       </p>
-    </div>
+    </footer>
   );
 };
 

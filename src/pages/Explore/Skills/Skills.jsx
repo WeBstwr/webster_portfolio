@@ -9,12 +9,12 @@ function Skills() {
     <section id="skills" className="skills-section">
       <Title text="my skills" />
       <div className="skills-container">
-        {skills.map((skill, i) => (
+        {skills.map((skill) => (
           <Skill
             icon={<skill.icon />}
             title={skill.title}
             description={skill.description}
-            key={i}
+            key={skill.title}
           />
         ))}
       </div>

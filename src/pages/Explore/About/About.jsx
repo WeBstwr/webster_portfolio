@@ -57,7 +57,13 @@ function About() {
         </div>
       </div>
       <div className="about-image-wrapper">
-        <img src={johnDoeImg} alt="john doe" className="about__image" />
+        <img
+          src={johnDoeImg}
+          alt="Webster Ifedha portrait"
+          loading="lazy"
+          decoding="async"
+          className="about__image"
+        />
       </div>
     </div>
   );

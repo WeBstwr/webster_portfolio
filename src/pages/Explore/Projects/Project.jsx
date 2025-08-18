@@ -8,7 +8,9 @@ function Project({ thumbnail, title, excerpt, liveUrl, codeUrl }) {
       <div className="project__image-wrapper">
         <img
           src={thumbnail}
-          alt="project thumbnail"
+          alt={`${title} thumbnail`}
+          loading="lazy"
+          decoding="async"
           className="project__image"
         />
       </div>
@@ -20,6 +22,7 @@ function Project({ thumbnail, title, excerpt, liveUrl, codeUrl }) {
           <a
             href={liveUrl}
             target="_blank"
+            rel="noopener noreferrer"
             className="project__url project__url--live"
           >
             <LuExternalLink /> live url
@@ -27,6 +30,7 @@ function Project({ thumbnail, title, excerpt, liveUrl, codeUrl }) {
           <a
             href={codeUrl}
             target="_blank"
+            rel="noopener noreferrer"
             className="project__url project__url--code"
           >
             <FaGithubSquare /> code url
