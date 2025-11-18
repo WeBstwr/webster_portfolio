@@ -19,14 +19,16 @@ function Project({ thumbnail, title, excerpt, liveUrl, codeUrl }) {
         <h3 className="project__title">{title}</h3>
         <p className="project__excerpt">{excerpt}</p>
         <div className="project__urls">
-          <a
-            href={liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project__url project__url--live"
-          >
-            <LuExternalLink /> live url
-          </a>
+          {liveUrl && (
+            <a
+              href={liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project__url project__url--live"
+            >
+              <LuExternalLink /> live url
+            </a>
+          )}
           <a
             href={codeUrl}
             target="_blank"

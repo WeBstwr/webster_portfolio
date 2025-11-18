@@ -4,8 +4,18 @@ import zaphImg from "../assets/zaph.jpg";
 import uhaImg from "../assets/uhaImg.jpg";
 import adviceImg from "../assets/adviceImg.png";
 import mutcImg from "../assets/mutcImg.jpg";
+import wbtstoreImg from "../assets/wbtstoreImg.png";
+import logo from "../assets/logo.png";
 
 const projects = [
+  {
+    image: wbtstoreImg,
+    title: "wbt e-commerce store",
+    excerpt:
+      "A full‑stack e‑commerce app with React, Zustand, Formik, Node.js, Express, Prisma, PostgreSQL, and Multer. Includes JWT auth with cookies, admin/user roles, product and image management, cart persistence, and a responsive UI.",
+      liveUrl: "https://wbtstore.vercel.app/",
+    codeUrl: "https://github.com/WeBstwr/codealpha_Simple-E-commerce-Store",
+  },
   {
     image: restoImg,
     title: "webster's restaurant",
@@ -54,6 +64,14 @@ const projects = [
     liveUrl: "https://numeral-to-roman-converter.vercel.app/",
     codeUrl: "https://github.com/WeBstwr/numeral-to-roman-converter",
   },
+  {
+    image: logo,
+    title: "live transcription model",
+    excerpt:
+      "A speech transcription model for Luhya family names with automatic storage and retrieval.",
+    codeUrl: "https://github.com/WeBstwr/Live-Transcription-Model",
+  },
+ 
 ];
 
 export default projects;

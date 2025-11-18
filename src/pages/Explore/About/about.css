@@ -1,10 +1,7 @@
 .about-section {
-  max-width: 1100px;
+  max-width: 800px;
   margin: 3rem auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 2rem;
-  gap: 4rem;
 }
 
 @media screen and (max-width: 50em) {
@@ -20,24 +17,13 @@
 .about-textbox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 2rem;
   align-items: center;
-  gap: 4rem;
 }
 
 .about-textbox__text {
-  font-size: 2rem;
-  text-align: justify;
-  justify-content: center;
+  font-size: 1.8rem;
+  line-height: 1.7;
 }
 
-.about-image-wrapper {
-  height: 65rem;
-}
-
-.about__image {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
+/* Image removed per Option B */

@@ -3,6 +3,8 @@ import { TbDeviceDesktopCode } from "react-icons/tb";
 import { FaServer } from "react-icons/fa";
 import { GrTestDesktop } from "react-icons/gr";
 import { IoLogoFigma } from "react-icons/io5";
+import { SiTensorflow } from "react-icons/si";
+import { MdSecurity } from "react-icons/md";
 
 const skills = [
   {
@@ -34,6 +36,18 @@ const skills = [
     title: "graphic design",
     description:
       "Creating visually compelling designs that communicate ideas effectively",
+  },
+  {
+    icon: SiTensorflow,
+    title: "machine learning",
+    description:
+      "Exploring ML workflows; built a live transcription model with storage and retrieval",
+  },
+  {
+    icon: MdSecurity,
+    title: "cloud security",
+    description:
+      "Hardening apps, securing secrets, and reviewing authentication flows",
   },
 ];
 export default skills;

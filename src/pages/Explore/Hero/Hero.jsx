@@ -10,10 +10,10 @@ function Hero() {
           <div className="hero-textbox">
             <p className="hero-textbox__p hero-textbox-p-left">
               <img src={img} alt="Webster Ifedha avatar" decoding="async" className="hero-avatar-img" />
-              Hello, I am
+              Hello, I’m
             </p>
             <h3 className="hero__name">{`webster ifedha`}</h3>
-            <p className="hero-textbox__p">I am a full-stack web developer</p>
+            <p className="hero-textbox__p">I’m a full‑stack developer</p>
           </div>
         </div>
 
